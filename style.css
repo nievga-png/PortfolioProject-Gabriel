@@ -1,0 +1,145 @@
+*
+{
+    box-sizing: border-box;
+}
+
+body
+{
+    margin: 0;
+    background-color: #140014;
+    color: #FFFFFF;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+header
+{
+    padding: 25px 8%;
+    border-bottom: 2px solid #7200F5;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+header h1
+{
+    margin: 0;
+    font-size: 22px;
+    letter-spacing: 2px;
+}
+
+nav
+{
+    display: flex;
+    gap: 18px;
+    flex-wrap: wrap;
+}
+
+nav a
+{
+    color: #FFFFFF;
+    text-decoration: none;
+    padding: 5px 0;
+}
+
+main
+{
+    width: 84%;
+    max-width: 1000px;
+    margin: 50px auto;
+    min-height: 60vh;
+}
+
+.intro
+{
+    padding: 55px 35px;
+    border: 2px solid #7200F5;
+    background-color: #140014;
+}
+
+.greensmall
+{
+    color: #00F508;
+    font-size: 12px;
+    letter-spacing: 2px;
+}
+
+.intro h2
+{
+    font-size: 42px;
+    line-height: 1.2;
+    margin: 15px 0;
+}
+
+.intro h2 span
+{
+    color: #FF003F;
+}
+
+.border
+{
+    margin-top: 25px;
+    padding: 25px;
+    border: 1px solid #7200F5;
+    background-color: #140014;
+}
+
+.border h2
+{
+    margin-top: 0;
+    color: #00F508;
+    font-size: 20px;
+}
+
+.pagetitle
+{
+    margin-bottom: 30px;
+}
+
+.pagetitle h2
+{
+    margin: 5px 0;
+    color: #FF003F;
+    font-size: 38px;
+}
+
+footer
+{
+    padding: 20px 8%;
+    border-top: 2px solid #7200F5;
+    color: #FFFFFF;
+    font-size: 12px;
+    letter-spacing: 1px;
+}
+
+@media (max-width: 600px)
+{
+    header
+    {
+        align-items: flex-start;
+        flex-direction: column;
+    }
+
+    main
+    {
+        width: 90%;
+        margin: 30px auto;
+    }
+
+    .intro
+    {
+        padding: 30px 20px;
+    }
+
+    .intro h2
+    {
+        font-size: 32px;
+    }
+
+    .pagetitle h2
+    {
+        font-size: 30px;
+    }
+}
