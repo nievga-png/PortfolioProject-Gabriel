@@ -44,6 +44,7 @@ nav a
     padding: 5px 0;
 }
 
+
 main
 {
     width: 84%;
@@ -114,34 +115,36 @@ footer
     letter-spacing: 1px;
 }
 
-@media (max-width: 600px)
+.project
 {
-    header
-    {
-        align-items: flex-start;
-        flex-direction: column;
-    }
-
-    main
-    {
-        width: 90%;
-        margin: 30px auto;
-    }
-
-    .intro
-    {
-        padding: 30px 20px;
-    }
-
-    .intro h2
-    {
-        font-size: 32px;
-    }
-
-    .pagetitle h2
-    {
-        font-size: 30px;
-    }
-
+    display: flex;
+    align-items: center;
+    gap: 25px;
 }
 
+.projectimage
+{
+    width: 40%;
+    min-height: 180px;
+    border: 1px solid #7200F5;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.projectimage img
+{
+    max-width: 100%;
+}
+
+
+.projectimage video
+{
+    max-width: 100%;
+}
+
+
+.projecttext
+{
+    flex: 1;
+}
